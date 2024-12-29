@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instant PNG - Remove Background Instantly</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+        }
+
+        body {
+            background: #fafafa;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .navbar {
+            background: white;
+            padding: 1rem 2rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .navbar-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: #0095ff;
+        }
+
+        .hero {
+            padding: 8rem 2rem 4rem;
+            text-align: center;
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+        }
+
+        .hero-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 1.5rem;
+            color: #1a1a1a;
+        }
+
+        .subtitle {
+            font-size: 1.25rem;
+            color: #666;
+            margin-bottom: 2rem;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 1rem 2rem;
+            background: #0095ff;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 500;
+            transition: background 0.2s ease;
+        }
+
+        .cta-button:hover {
+            background: #0077cc;
+        }
+
+        .features {
+            padding: 4rem 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .feature-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        .feature-icon {
+            font-size: 2rem;
+            color: #0095ff;
+            margin-bottom: 1rem;
+        }
+
+        .demo {
+            padding: 4rem 2rem;
+            background: #f8f9fa;
+            text-align: center;
+        }
+
+        .demo img {
+            max-width: 800px;
+            width: 100%;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+
+        footer {
+            background: #1a1a1a;
+            color: white;
+            padding: 2rem;
+            text-align: center;
+            margin-top: 4rem;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2rem;
+            }
+            
+            .hero {
+                padding: 6rem 1rem 3rem;
+            }
+            
+            .features, .demo {
+                padding: 2rem 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-content">
+            <div class="logo">Instant PNG</div>
+            <a href="https://chrome.google.com/webstore/YOUR-EXTENSION-ID" class="cta-button">Add to Chrome</a>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Remove Image Backgrounds Instantly</h1>
+            <p class="subtitle">Transform any image into a transparent PNG with just one click. Perfect for designers, marketers, and content creators.</p>
+            <a href="https://chrome.google.com/webstore/kjhnhnchpkgjmjfcojgjiilfbhfhelmd" class="cta-button">Install Extension</a>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature-icon">⚡️</div>
+                <h3>Lightning Fast</h3>
+                <p>Remove backgrounds in seconds with our powerful AI technology.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">📋</div>
+                <h3>Simple Copy & Paste</h3>
+                <p>Just paste your image and get the transparent PNG instantly.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🎯</div>
+                <h3>Perfect Results</h3>
+                <p>High-quality background removal for any type of image.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="demo">
+        <h2>How It Works</h2>
+        <img src="demo.png" alt="Extension Demo" />
+    </section>
+
+    <footer>
+        <p>© 2024 Instant PNG. All rights reserved.</p>
+    </footer>
+</body>
+</html> 

@@ -1,0 +1,18 @@
+.screenshot-selector {
+  position: fixed;
+  border: 2px solid #0095ff;
+  background: rgba(0, 149, 255, 0.1);
+  z-index: 10000;
+  cursor: move;
+  display: none;
+}
+
+.screenshot-selector .resize-handle {
+  width: 10px;
+  height: 10px;
+  background: #0095ff;
+  position: absolute;
+  cursor: se-resize;
+  right: -5px;
+  bottom: -5px;
+} 

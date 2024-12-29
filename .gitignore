@@ -1,0 +1,6 @@
+# Environment variables
+.env
+
+# Other common files to ignore
+.DS_Store
+node_modules/ 
